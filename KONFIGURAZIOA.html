@@ -2,8 +2,8 @@
 <html lang="es">
     <link rel="stylesheet" href="styles.css">
 <head>
-    <!-- AWP_In_Variable Name='"S1"' -->
-    <!-- AWP_In_Variable Name='"BOTOIA A+"' -->
+ 
+    <!-- AWP_In_Variable Name='"Bloque de datos_1".T1ON' -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
@@ -19,11 +19,11 @@
     <nav>
         <a href="ERRONKA___5.html"><button class="index-button" onclick="scrollToSection(section1)">ERRONKA 5</button></a>
         <a href="IRTEERAK.html"><button class="index-button" onclick="scrollToSection(section1)">IRTEERAK</button></a>
-        <a href="KONFIGURAZIOA.html"><button class="index-button" onclick="scrollToSection(section1)">KONFIGURAZIOA</button></a>
+        <a href="SARRERAK.html"><button class="index-button" onclick="scrollToSection(section1)">KONFIGURAZIOA</button></a>
     </nav>
 
     <section>
-        <h2>Estanpazio proiektua</h2>
+        <h2>Tenporizadorearen konfigurazioa</h2>
         <p> Webgune orri honetan, gure proiektuaren inguruan beharrezkoa duzun informazioa aurki ditzakezu. 
             
             
@@ -32,26 +32,24 @@
     </section>
 
     <div>
-     <form method="post" action="">
+     <form id="form1" method="post" action="">
         <table border="1">
             <tr>
-                <td><p>Idatzi lauki honetan S1(PRUEBA):</p>
-                    <input type='text' name='"S1"' value=':="S1":'/>
-                    <input type='submit' value="Bidali PLC-ra"/>
-                </td>
-                <td><p>Idatzi lauki honetan BOTOIA A+(PRUEBA):</p>
-                    <input type='text' name='"BOTOIA A+"' value=':="BOTOIA A+":'/>
-                    <input type='submit' value="Bidali PLC-ra"/>
+                <td><p>Idatzi lauki honetan tenporizadoreak duen balioa:</p>
+                    <input type='text' name='"Bloque de datos_1".T1ON' value=':="Bloque de datos_1".T1ON:'/>
+                    <input type='submit' value="Aldatu konfigurazioa"/>
                 </td>
             </tr>
         </table>
      </form>
     </div>
-
+<div>
+    <p> Hona hemen tenporizadoreak barruan dutean datua: :="T1".PT:</p>
+    <p> Hona hemen tenporizadoreak barruan duen datua: :="T1".ET:</p>
+</div>
     <footer>
         <p>Estanpazio 1 taldea &copy; 2024 - Estanpagailua</p>
     </footer>
 
 </body>
 </html>
-
