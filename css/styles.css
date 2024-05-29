@@ -6,7 +6,10 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f0ebee;
+    font-size: 20px; 
 }
+
 
 /* Estilos de la cabecera */
 header {
